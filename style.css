@@ -77,11 +77,12 @@ body {
 
 #hero-button {
     font-size: 16px;
-    padding: 4px 16px;
+    padding: 8px 24px;
     color: #e5e7eb;
     border: none;
     border-radius: 4px;
     background-color: #3882f6;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -150,6 +151,7 @@ body {
 .testimonial {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     padding: 80px 512px;
@@ -168,6 +170,49 @@ body {
     font-weight: bold;
     font-size: 18px;
 }
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+    margin: 128px 256px;
+    padding: 48px 96px;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
+#action-header {
+    color: #f9faf8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#action-text {
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+#action-button {
+    font-size: 16px;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: #3882f6;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 8px;
+}
+
 
 ul {
     display: flex;
